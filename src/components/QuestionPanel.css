@@ -1,0 +1,22 @@
+.question-pannel-container{
+    color: rgb(49, 61, 230);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.question-pannel-container .question-text{
+    background-color: rgba(38, 79, 212, 0.089);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.question-heading{
+    color: rgba(138, 143, 143, 0.836);
+    font-size: 16px;
+}
+
+.question-text{
+    text-align: left;
+}

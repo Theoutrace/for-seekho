@@ -1,0 +1,16 @@
+.result-component-contaier{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px 0px 50px 0px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.result-img{
+    margin-top: 50px;
+}
+
+.result-component-contaier h2{
+    color: rgb(41, 99, 207);
+    font-size: 25px;
+}

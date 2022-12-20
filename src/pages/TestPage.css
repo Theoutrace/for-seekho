@@ -1,0 +1,91 @@
+.test-page-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 70%;
+  margin-top: 100px;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.test-page-sidebar-container {
+  width: 20%;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: rgb(224, 235, 245);
+  border-radius: 5px;
+}
+
+.test-page-question-box-container {
+  width: 80%;
+  margin: 10px;
+  /* border: 1px dashed grey; */
+  background-color: rgba(228, 233, 238, 0.322);
+  border-radius: 5px;
+  position: relative;
+}
+
+.ques-opt-container-cnt {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.prev-next-btn-cntnr {
+  display: flex;
+  justify-content: right;
+  position: relative;
+}
+
+.prev-btn {
+  height: 40px;
+  width: 120px;
+  font-size: larger;
+  margin: 20px;
+  background-color: rgb(43, 55, 226);
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+}
+
+.next-btn {
+  height: 40px;
+  width: 120px;
+  font-size: larger;
+  margin: 20px;
+  background-color: rgb(43, 55, 226);
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+
+.submit-text-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.submit-text-btn button {
+  height: 45px;
+  width: 120px;
+  background-color: rgb(226, 43, 43);
+  border-radius: 4px;
+  border: 0px;
+  font-size: 20px;
+  color: aliceblue;
+  cursor: pointer;
+}

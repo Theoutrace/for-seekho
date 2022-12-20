@@ -1,38 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Poppins:wght@100;400;700&display=swap');
 .App {
   text-align: center;
+  background-color: rgb(238, 230, 230);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.start-test-cntnr{
+  width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start-test-cntnr button{
+  height: 40px;
+  width: 30%;
+  font-size: 25px;
+  background-color: rgb(43, 69, 218);
+  color:aliceblue;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
 }

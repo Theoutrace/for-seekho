@@ -1,0 +1,29 @@
+.singleOption-constiner{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.singleOption-constiner input{
+    height: 20px;
+    width: 20px;
+}
+
+.singleOption-constiner label{
+    margin-left: 10px;
+}
+
+.singleOption-constiner label:hover{
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(43, 55, 226);
+}
+
+.sd-single-opt{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
